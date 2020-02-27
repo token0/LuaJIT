@@ -345,7 +345,7 @@ else
     endif
   endif
   ifeq (Linux,$(TARGET_SYS))
-    TARGET_XLIBS+= -ldl
+    #TARGET_XLIBS+= -ldl
   endif
   ifeq (GNU/kFreeBSD,$(TARGET_SYS))
     TARGET_XLIBS+= -ldl
